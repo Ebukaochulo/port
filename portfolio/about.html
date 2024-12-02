@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO website</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    
+                   
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>
+    </section>
+
+<!------- about us ----->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>we want to make a difference</h1>
+            <p>As a non-profit organization operating in the third sector, Grace foundation is dedicated to harnessing the potential of education to create lasting change in communities.
+                in this reoprt we shine light on our recent outreach initiative to an orphanage home in lagos , Nigeria, demonstrating the profound inpact of edocation on vulnurable populations.
+                Additionally we addressed a significant challange facingthe education system in Nigeria and accross africa
+             </div>
+        <div class="about-col">
+            <img src="eduford_img/about.jpg">
+        </div>
+
+    </div>
+    
+</section>
+<!----------footer---=----->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur 
+        adipisicing elit. Cumque quia recusandae 
+        in aliquid debitis Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Doloribus quia velit harum?.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+</section>
+ 
+         
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = '0';
+        
+        }
+        function hideMenu(){
+            navLinks.style.right = '-200px';
+        }
+        
+    </script>
+    
+</body>
+</html>
